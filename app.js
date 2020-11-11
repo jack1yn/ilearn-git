@@ -15,7 +15,7 @@ app.get("/", (req, res) => {
  });
 
 app.get("/test", (req, res) => {
-  res.send(["Successful Testing CI from ilearn-git!!"]);
+  res.send(["*** Successful Testing CI/CD from ilearn-git!! ***"]);
  });
  
 app.get("/api", (req, res, next) => {
