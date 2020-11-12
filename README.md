@@ -7,6 +7,7 @@ GitHub integration and automatic deploys are enabled as Heroku has registered a 
 ![](https://github.com/jack1yn/ilearn-git/blob/main/img/node-heroku.png)
 
 
+
 ## Step 1: Create a simple Node App
 
 1. Create a folder **ilearn-git** on your local machine. 
@@ -31,6 +32,7 @@ GitHub integration and automatic deploys are enabled as Heroku has registered a 
 ![](https://github.com/jack1yn/ilearn-git/blob/main/img/pmtestmsg.png)
 
 Cool! A simple Nodejs app is created successfully.
+
 
 
 ## Step 2: Push the code to GitHub
@@ -65,6 +67,7 @@ Cool! A simple Nodejs app is created successfully.
 8. Open GitHub and refresh the repository. Check that the changes is updated to the remote repo.
 
 
+
 ## Step 3: Deploy to Heroku
 
 1. Open the [Heroku app](https://dashboard.heroku.com/apps).
@@ -73,7 +76,7 @@ Cool! A simple Nodejs app is created successfully.
 4. Select Github as the deployment method by selecting **Connect to GitHub** option.   
 5. Key in "ilearn-git" and select **Connect**. It will find and connect to Github repo.
 6. Select **Enable Automatic Deploys**. Heroku will pick up the changes at Github and deploy automatically. 
-7. Go to **Settings** tab and click **Add buildpack**
+7. Go to **Settings** tab and click **Add buildpack**.
 8. Select **nodejs** from the options and click **Save changes**.
 9. Go back to **Deploy** tab and click **Deploy Branch** at the bottom.
 10. Go to **Settings** tab. Copy and paste the URL [ilearnapp.herokuapp.com](https://ilearnapp.herokuapp.com/) in the browser.
@@ -91,6 +94,7 @@ Now make some code changes at your Git repo and see the changes deployed automai
 ![](https://github.com/jack1yn/ilearn-git/blob/main/img/git-heroku.png)
 
 
+
 ## Learning Journey
 ### Design Approach
 
@@ -103,7 +107,7 @@ Now make some code changes at your Git repo and see the changes deployed automai
 * [Node](https://nodejs.org/en/) on your local machine
 * [GitHub account](https://github.com) to host the code online 
 * [GitHub desktop](https://desktop.github.com/) to push the code changes to Github
-* [Heroku account](https://signup.heroku.com/login)
+* [Heroku account](https://signup.heroku.com/login) to deploy the app
 * [Docker Hub](https://hub.docker.com/) to push container images to Docker Hub
 
 ### References
