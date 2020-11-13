@@ -11,11 +11,11 @@ const app = http.createServer((req, res) => {
 */
 
 app.get("/", (req, res) => {
-  res.send(["<h1> Hello World from ilearn-git - remote repo! </h1>"]);
+  res.send([" Hello World from ilearn-git - remote repo! "]);
  });
 
 app.get("/test", (req, res) => {
-  res.send(["<h1> *** Successful Testing CI/CD from ilearn-git!! *** </h1>"]);
+  res.send([" Successful Testing CI/CD from ilearn-git!! "]);
  });
  
 app.get("/api", (req, res, next) => {
